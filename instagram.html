@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Profile Feed</title>
+  <link rel="stylesheet" href="Instagram.css">
+  <!-- Font Awesome CDN for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">Instagram</div>
+      <div class="search-bar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search">
+      </div>
+      <div class="nav-icons">
+        <i class="fa-solid fa-house"></i>
+        <i class="fa-paper-plane"></i>
+        <i class="fa-square-plus"></i>
+        <i class="fa-regular fa-compass"></i>
+        <i class="fa-regular fa-heart"></i>
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" alt="Nav Profile" class="nav-profile-pic">
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- Profile Section -->
+    <header class="profile">
+      <div class="profile-image">
+        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80" alt="Profile Picture">
+      </div>
+
+      <div class="profile-info">
+        <div class="profile-header">
+          <h2 class="username">alexa_designs</h2>
+          <button class="btn btn-primary">Follow</button>
+          <button class="btn btn-secondary">Message</button>
+          <i class="fa-solid fa-user-check btn-icon"></i>
+          <i class="fa-solid fa-ellipsis btn-icon"></i>
+        </div>
+
+        <ul class="profile-stats">
+          <li><strong>148</strong> posts</li>
+          <li><strong>24.5k</strong> followers</li>
+          <li><strong>512</strong> following</li>
+        </ul>
+
+        <div class="profile-bio">
+          <span class="profile-real-name">Alexa Morgan | UI/UX Designer</span>
+          <p>✨ Creating digital experiences & visual design</p>
+          <p>📍 San Francisco, CA</p>
+          <a href="#" class="bio-link">alexadesigns.io</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Highlights Section -->
+    <div class="highlights">
+      <div class="highlight-item">
+        <div class="highlight-ring">
+          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=150&auto=format&fit=crop&q=80" alt="Highlight">
+        </div>
+        <span>Design</span>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-ring">
+          <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=150&auto=format&fit=crop&q=80" alt="Highlight">
+        </div>
+        <span>Travel</span>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-ring">
+          <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=150&auto=format&fit=crop&q=80" alt="Highlight">
+        </div>
+        <span>Work</span>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-ring">
+          <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=150&auto=format&fit=crop&q=80" alt="Highlight">
+        </div>
+        <span>Coffee</span>
+      </div>
+    </div>
+
+    <!-- Feed Tabs -->
+    <div class="feed-tabs">
+      <button class="tab active"><i class="fa-solid fa-table-cells"></i> POSTS</button>
+      <button class="tab"><i class="fa-solid fa-clapperboard"></i> REELS</button>
+      <button class="tab"><i class="fa-regular fa-bookmark"></i> SAVED</button>
+      <button class="tab"><i class="fa-solid fa-user-tag"></i> TAGGED</button>
+    </div>
+
+    <!-- Posts Grid -->
+    <div class="gallery">
+
+      <!-- Gallery Item 1 -->
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&auto=format&fit=crop&q=80" class="gallery-image" alt="">
+        <div class="gallery-item-overlay">
+          <ul>
+            <li class="gallery-item-likes"><i class="fa-solid fa-heart"></i> 1,240</li>
+            <li class="gallery-item-comments"><i class="fa-solid fa-comment"></i> 85</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Gallery Item 2 -->
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&auto=format&fit=crop&q=80" class="gallery-image" alt="">
+        <div class="gallery-item-overlay">
+          <ul>
+            <li class="gallery-item-likes"><i class="fa-solid fa-heart"></i> 3,410</li>
+            <li class="gallery-item-comments"><i class="fa-solid fa-comment"></i> 120</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Gallery Item 3 -->
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=500&auto=format&fit=crop&q=80" class="gallery-image" alt="">
+        <div class="gallery-item-overlay">
+          <ul>
+            <li class="gallery-item-likes"><i class="fa-solid fa-heart"></i> 890</li>
+            <li class="gallery-item-comments"><i class="fa-solid fa-comment"></i> 42</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Gallery Item 4 -->
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=500&auto=format&fit=crop&q=80" class="gallery-image" alt="">
+        <div class="gallery-item-overlay">
+          <ul>
+            <li class="gallery-item-likes"><i class="fa-solid fa-heart"></i> 4,120</li>
+            <li class="gallery-item-comments"><i class="fa-solid fa-comment"></i> 210</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Gallery Item 5 -->
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=500&auto=format&fit=crop&q=80" class="gallery-image" alt="">
+        <div class="gallery-item-overlay">
+          <ul>
+            <li class="gallery-item-likes"><i class="fa-solid fa-heart"></i> 2,300</li>
+            <li class="gallery-item-comments"><i class="fa-solid fa-comment"></i> 98</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Gallery Item 6 -->
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?w=500&auto=format&fit=crop&q=80" class="gallery-image" alt="">
+        <div class="gallery-item-overlay">
+          <ul>
+            <li class="gallery-item-likes"><i class="fa-solid fa-heart"></i> 1,850</li>
+            <li class="gallery-item-comments"><i class="fa-solid fa-comment"></i> 64</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
