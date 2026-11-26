@@ -1,0 +1,19 @@
+body{
+    font-family: Verdana;
+    font-size: 2em;
+    color: rgb(186, 38, 255);
+    background-color: aqua;
+}
+h1{
+    font-size: 2em;
+    border-radius: 22px;
+    color: black;
+    background-color: blueviolet;
+    width: 23svb;   
+}
+p{
+    color:red;
+    border-radius: 10px;
+    background-color: white;
+    width: 20svb;
+}
