@@ -1,15 +1,52 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JavaScript DOM Practice</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p id="p1"></p>
-    <p id="p2"></p>
-    <p id="p3"></p>
-    <script src="index.js"></script>
+
+    <div class="container">
+
+        <h1 id="title">JavaScript DOM Example</h1>
+
+        <!-- Change Message -->
+        <p id="message">Welcome to JavaScript!</p>
+        <button onclick="changeMessage()">Change Message</button>
+
+        <hr>
+
+        <!-- Change Text Color -->
+        <button onclick="changeColor()">Change Title Color</button>
+
+        <hr>
+
+        <!-- Current Date and Time -->
+        <p id="date">Current Date and Time</p>
+        <button onclick="showDate()">Show Date & Time</button>
+
+        <hr>
+
+        <!-- Addition of Two Numbers -->
+        <h3>Add Two Numbers</h3>
+
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+
+        <button onclick="addNumbers()">Calculate Sum</button>
+
+        <p id="result">Result will appear here</p>
+
+        <hr>
+
+        <!-- Change Box Background -->
+        <div id="box">Hello! I am a Box</div>
+        <button onclick="changeBox()">Change Box Color</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
